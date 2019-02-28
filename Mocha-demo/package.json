@@ -1,0 +1,15 @@
+{
+  "name": "mocha-demo",
+  "version": "1.0.0",
+  "description": "mocha-study-demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.test.js"
+  },
+  "author": "gbb",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
