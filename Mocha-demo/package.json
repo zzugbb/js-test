@@ -4,7 +4,10 @@
   "description": "mocha-study-demo",
   "main": "index.js",
   "scripts": {
-    "test": "mocha *.test.js"
+    "test": "mocha",
+    "test-all" : "mocha --recursive",
+    "test-js": "mocha *.test.js",
+    "test-async": "mocha -t 5000 *.test.js"
   },
   "author": "gbb",
   "license": "MIT",

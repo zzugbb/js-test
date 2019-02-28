@@ -1,4 +1,4 @@
-var add = require('./add.js');
+var add = require('../add.js');
 var expect = require('chai').expect;
 
 describe('加法函数的测试', function() {
@@ -8,5 +8,9 @@ describe('加法函数的测试', function() {
 
   it('3 加 -3 应该等于 0', function() {
     expect(add(3, -3)).to.be.equal(0);
+  });
+
+  it('3 加 -3 应该不等于 1', function() {
+    expect(add(3, -3)).to.be.not.equal(1);
   });
 });
